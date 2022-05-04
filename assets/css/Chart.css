@@ -1,0 +1,19 @@
+/* horizontally center the container making up the monitor */
+
+/* display the heading and svg in a centered column */
+#chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+#chart h1 {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+/* have the svg occupy a sizeable portion of the wrapping container */
+#chart svg {
+  margin-top: 2.5rem;
+  width: 90%;
+  height: auto;
+}
